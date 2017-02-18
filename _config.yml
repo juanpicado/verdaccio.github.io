@@ -8,10 +8,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: verdaccio_npm
 github_username:  verdaccio
-
+# About/contact
+author:
+  name:       verdaccio
+  url:        http://verdaccio.org
+tagline: Private npm repository server
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 gems:
   - jekyll-feed
   - jekyll-sitemap
