@@ -11,7 +11,7 @@ github_username:  verdaccio
 # About/contact
 author:
   name:       verdaccio
-  url:        http://verdaccio.org
+  url:        http://verdaccio.github.io
 tagline: Private npm repository server
 # Build settings
 markdown: kramdown
