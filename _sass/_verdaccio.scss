@@ -225,7 +225,7 @@ h6 { font-size: 1rem; }
 
         @include medium {
           font-size: 0.9em;
-          width: 30em;
+          width: 45em;
           padding: 1em;
         }
 
@@ -325,6 +325,12 @@ h6 { font-size: 1rem; }
   font-size: 0.9rem;
   text-align: center;
   margin-bottom: 2rem;
+  @include small {
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.8rem;
+  }
 }
 
 ul.contact-list,
