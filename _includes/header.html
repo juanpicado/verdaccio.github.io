@@ -1,0 +1,22 @@
+
+
+<header class="header">
+  <section class="site-header">
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <nav class="site-nav">
+        <a class="page-link" href="{{site.baseurl}}/server">Server</a>
+        <a class="page-link" href="{{site.baseurl}}/plugins">Plugins</a>
+        <a class="page-link" href="{{site.baseurl}}/blog">Blog</a>
+      </nav>
+  </section>
+  {% if page.title == site.title %}
+  <section class="page-header">
+    <h1 class="project-name">{{page.title}}</h1>
+    {% if page.subtitle %}
+      <h2 class="project-tagline">{{page.subtitle}}</h2>
+    {% endif %}
+    <a href="https://github.com/verdaccio" class="btn">View on GitHub</a>
+    <a href="{{site.baseurl}}/usage/cli" class="btn">Learn More</a>
+  </section>
+  {% endif %}
+</header>

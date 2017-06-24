@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  
+<html>
+
   {% include head.html %}
 
   <body>
-    {% include page-header.html %}
 
-    <section class="main-content">
-      
-      {{ content }}
+    {% include header.html %}
 
-      {% include page-footer.html %}
+    <div class="main-content">
+        {{ content }}
+        {% include footer.html %}
+    </div>
 
-    </section>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
+
 </html>
