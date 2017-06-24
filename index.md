@@ -45,34 +45,45 @@ subtitle: A npm proxy private registry
 
 ## Easy to Install
 
-One command install
+One single command to install that creates 
 
 ```sh
-npm install --global verdaccio
+$> npm install --global verdaccio
 
 # or
 
-yarn global add verdaccio
+$> yarn global add verdaccio
 
 ```
 
-## Easy to Use
+## Easy to Set Up
 
 Set your verdaccio registry as default
 
 ```sh
 
-npm set registry http://localhost:4873/
+$> npm set registry http://localhost:4873
+
+$> npm adduser --registry http://localhost:4873
 
 ```
 
-## DevOps Friendly
+## Easy to Use
 
-<a href="https://github.com/verdaccio/verdaccio/blob/master/wiki/docker.md" target="_blank">
-    <img src="css/icon/docker.jpeg" alt="Docker Support" width="200"/>
-</a>
+Run it in your terminal
 
-## Most popular npm clients supported
+```sh
+
+$> verdaccio
+warn --- config file  - /home/.config/verdaccio/config.yaml
+warn --- http address - http://localhost:5555/ - verdaccio/2.2.0
+
+```
+
+
+#### That's it ! Enjoy your **private package manager**.
+
+##### and all the most popular npm clients are supported.
 
 <div class="client-support">
     <div class="client">
@@ -81,5 +92,15 @@ npm set registry http://localhost:4873/
     <div class="client">
         <img src="css/icon/yarn-logo.svg" alt="Docker Support" width="200"/>
     </div>        
+</div>
+
+
+<div class="section">
+    <h1> 
+        Docker Ready
+    </h1>
+    <a href="https://github.com/verdaccio/verdaccio/blob/master/wiki/docker.md" target="_blank">
+        <img src="css/icon/docker.jpeg" alt="Docker Support" width="200"/>
+    </a>
 </div>
 
