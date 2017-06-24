@@ -45,7 +45,7 @@ subtitle: A npm proxy private registry
 
 ## Easy to Install
 
-One single command to install that creates 
+One single command to install the application
 
 ```sh
 $> npm install --global verdaccio
