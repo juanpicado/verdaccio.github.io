@@ -8,6 +8,20 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="revisit-after" content="30 days">
     <meta name="distribution" content="web">
+
+    <meta name="twitter:card" value="{{ site.description }}">
+    <meta name="twitter:site" content="@verdaccio_npm">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ site.meta_description }}">
+    <meta name="twitter:creator" content="@verdaccio_npm">
+    <meta name="twitter:image" content="http://www.verdaccio.org/css/icon/package.png">
+
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.verdaccio.org/" />
+    <meta property="og:image" content="http://www.verdaccio.org/css/icon/package.png" />
+    <meta property="og:description" content="{{ site.meta_description }}" />
+
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
