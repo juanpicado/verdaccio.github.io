@@ -1,7 +1,7 @@
 title: verdaccio
 email: verdaccio.npm@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Lightweight private npm proxy registry
+description: Lightweight private npm proxy registry
+meta_description: Verdaccio is a lightweight private npm proxy registry based on node.js
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/verdaccio/verdaccio"
 twitter_username: verdaccio_npm
@@ -11,7 +11,6 @@ github_username:  verdaccio
 markdown: kramdown
 markdown_ext: md
 exclude: [vendor]
-
 
 author:
   name: verdaccio community
