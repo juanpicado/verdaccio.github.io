@@ -36,7 +36,7 @@ subtitle: A npm proxy private registry
     
     <div class="link-section">
         <a href="https://github.com/verdaccio" title="Github verdaccio page">GitHub</a>
-        <a href="https://github.com/verdaccio/verdaccio/tree/master/wiki" title="Documentation">Documentation</a>   
+        <a href="https://github.com/verdaccio/verdaccio/tree/master/docs" title="Documentation">Documentation</a>   
     </div>
        
        
